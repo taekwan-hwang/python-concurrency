@@ -3,6 +3,7 @@ os.fork() example
 """
 
 import os
+
 import logger
 
 if __name__ == '__main__':

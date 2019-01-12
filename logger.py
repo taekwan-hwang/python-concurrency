@@ -2,7 +2,6 @@
 전역적으로 사용할 logger
 """
 
-
 import logging
 
 _logger = logging.getLogger('logger')
