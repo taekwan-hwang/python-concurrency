@@ -9,7 +9,7 @@ _logger = logging.getLogger('logger')
 _logger.setLevel(logging.DEBUG)
 
 _stream_handler = logging.StreamHandler()
-_formatter = logging.Formatter('%(process)s %(processName)s %(thread)s %(threadName)s\
+_formatter = logging.Formatter('%(process)s %(processName)s %(thread)s %(threadName)s \
 %(filename)s line %(lineno)s, %(asctime)s %(levelname)s: %(message)s')
 _stream_handler.setFormatter(_formatter)
 
