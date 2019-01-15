@@ -289,6 +289,10 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
+Include/
+Lib/
+tcl/
+scripts/
 .env
 .venv
 env/
